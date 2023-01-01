@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/match_constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/num1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Num 1"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/num2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Num 2"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ADD" />
+
+        <Button
+            android:id="@+id/btnsub"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="SUBTRACT" />
+
+        <Button
+            android:id="@+id/btnmul"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="MULTIPLY" />
+
+        <Button
+            android:id="@+id/btndiv"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="DIVIDE" />
+
+        <Button
+            android:id="@+id/clr"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="CLEAR ALL" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
